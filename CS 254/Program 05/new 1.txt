@@ -1,0 +1,35 @@
+## CS 254 Program 4
+##
+## Compute (17x + 10xy + 28)/5
+##
+## Programmer: Ahmed Elgendy
+## Date: 10/16/2021
+
+        .text
+        .globl  main
+main:
+        lui   $10,0x1000         #Initialize base register
+        lw    $11,0($10)         #Load x
+        ori   $14,$0,17          #Assigns 17 to register $14
+        lw    $12,0($11)         #Load y
+        ori   $13,$0,28          #value of polynomial
+        mult  $14,$11            #Gets 17x and assigns it to lo
+        mflo  $14                #$14 = 17x
+        ori   $9,$0,10           #Assigns 10 to register $9
+        mult  $9,$11             #Gets 10x and assigns it to lo
+        mflo  $9                 #$9 = 10x
+        mult  $9,$12             #Gets 10xy and assigns it to lo
+        mflo  $9                 #$9 = 10xy
+        addu  $13,$13,$9         #adds 10xy and 28
+        addu  $13,$13,$14        #Gets 17x + 10xy + 28
+        ori   $14,$0,$5          #Assigns 5 to register $14 
+        divu  $13,$13,$14        #Gets (17x + 10xy + 28)/5
+        mflo  $13                #Gets the answer and puts in registar $13
+        sw    $13,4($10)         #Stores answer
+        mfhi  $14                #Gets the remainder and puts it in registar $14
+        sw    $14,8($10)         #Stores remainder
+          .data
+x:        .word   1              #Intialize x
+y:        .word   2              #Intialize y
+Answer:   .word   0              #Gets answer
+Remainder:.word   0              #Gets remainder

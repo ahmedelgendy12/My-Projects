@@ -1,0 +1,241 @@
+1. Salute,4.5,1339
+17. Zohara,4.4,694
+73. J Gilbert’s Wood-Fired Steaks & Seafood,4.3,756
+129. Rooster,4.3,752
+25. Barcelona Wine Bar,4.3,699
+2. Bear’s Smokehouse Barbecue,4.1,1557
+37. bartaco - West Hartford,4.0,1059
+7. Trumbull Kitchen,3.9,741
+78. Max Burger,3.9,722
+29. Plan B - West Hartford,3.9,670
+154. GoldBurgers,4.5,564
+40. Treva Restaurant & Bar,4.3,549
+110. Max Fish,4.1,497
+87. Black Bamboo Chinese Restaurant,4.1,496
+56. Max’s Oyster Bar,4.0,584
+76. Pho Boston,3.9,509
+9. Black-Eyed Sally’s,3.8,572
+35. City Steam Brewery,3.3,633
+207. River: A Waterfront Restaurant & Bar,3.3,532
+138. The Cheesecake Factory - West Hartford,3.1,608
+15. Zaytoon’s Bistro,4.5,452
+3. Max Downtown,4.3,462
+21. Pho 501,4.3,460
+4. The Capital Grille,4.3,409
+66. Restaurant Bricco,4.2,451
+16. Tisane Euro Asian Cafe,4.0,452
+208. The Flying Monkey Grill Bar,3.9,391
+44. The Place 2 Be,3.7,451
+30. Agave Grill,3.5,398
+234. Blue Plate Kitchen,3.2,495
+28. Flora,4.5,366
+41. Vinted Wine Bar & Kitchen,4.4,366
+186. Kaliubon,4.4,359
+226. Ginza Japanese Cuisine,4.3,340
+176. Angry Tofu Korean Cuisine,4.3,332
+52. a’VERT Brasserie,4.2,387
+42. Shu Restaurant,4.2,358
+164. Lucky Lou’s Bar & Grill,3.9,362
+162. Milkcraft,3.4,342
+92. USS Chowder Pot IV,3.2,378
+185. El Pollo Guapo,4.5,302
+201. Pick & Mix,4.4,297
+68. Nummy,4.4,293
+51. Cora Cora,4.3,301
+24. The Half Door,4.1,322
+137. Ocho Cafe,4.1,313
+95. Savoy Pizzeria & Craft Bar,4.1,310
+94. The Blue Elephant Trail,4.0,311
+99. Fleming’s Prime Steakhouse & Wine Bar,3.9,328
+178. Frank Pepe Pizzeria Napoletana,3.6,295
+13. Tangiers International,4.7,268
+229. Mykonos Mediterranean Restaurant,4.5,276
+85. Edoichi Sushi & Hibachi Steak House,4.4,268
+101. Division West Bistro & Bar,4.1,272
+11. Republic at the Linden,4.1,271
+93. Shish Kebab House of Afghanistan,4.1,263
+71. J René Coffee Roasters,4.0,285
+145. The Corner Pug,3.7,290
+69. Pond House Cafe,3.7,283
+187. World of Beer,3.3,281
+97. The Charles,4.4,217
+55. Monte Alban Restaurant,4.2,217
+118. Arugula,4.1,229
+49. King and I Thai Kitchen,4.0,214
+153. Beachland Tavern,3.9,230
+64. J’s Crab Shack,3.7,234
+34. Sorella,3.7,233
+171. Goldberg’s Bagels,3.6,254
+72. Aladdin Halal,3.5,220
+168. AC Petersen Farms,3.1,225
+54. Song Restaurant,4.5,211
+20. Mark Twain House & Museum,4.3,202
+204. Harry’s Bishops Corner,4.3,200
+43. Han Restaurant,4.0,193
+119. Effie’s Place,3.8,204
+27. The Place 2 Be,3.8,202
+61. Ichiban Japanese & Korean Restaurant,3.7,193
+235. Cafe Sofia,3.5,197
+188. Butterfly Restaurant,3.3,198
+202. The Place 2 Be,3.2,198
+90. Heirloom Market,4.5,179
+39. BIRDCODE Hot Chicken,4.4,181
+134. Tea Break,4.3,193
+82. Sweet Chilli Thai Cuisine,4.1,190
+113. Pho Saigon,4.0,181
+225. Taste of India,3.9,184
+159. Union Kitchen,3.9,171
+163. Joey’s Pizza Pie,3.9,171
+65. Wood-n-Tap Bar & Grill- Hartford,3.7,191
+57. Peppercorn’s Grill,3.6,175
+6. Story and Soil Coffee,4.6,149
+19. El Pollo Guapo,4.4,156
+50. Tastease,4.2,164
+131. DORO Marketplace,4.2,164
+104. Carbone’s Ristorante,3.9,155
+155. Artisan Restaurant,3.7,168
+81. Vaughan’s Public House,3.7,159
+136. Mo’s Midtown Restaurant,3.6,159
+140. Mozzicato -De Pasquale’s Bakery & Pastry Shop,3.4,156
+169. Arch Street Tavern,3.1,168
+63. Carmine’s,4.5,139
+79. Mecha Noodle Bar,4.4,136
+8. Feng Chophouse,4.3,139
+141. Frida,4.1,147
+33. Connecticut Science Center,4.1,132
+223. Cisco’s American Breakfast & Mexican Cuisine,3.9,137
+150. First & Last Tavern,3.7,141
+199. Quaker Diner,3.5,145
+116. The Russell,3.3,133
+182. The Tavern Downtown,3.1,140
+77. Maruichi Japanese Food & Deli,4.6,128
+5. Wadsworth Atheneum Museum of Art,4.6,126
+100. Carl’s BBQ & Jerk,4.6,123
+10. Little River Restoratives,4.5,126
+120. Angelina’s Pizza,4.3,124
+170. Main Street Creamery & Cafe,4.2,128
+88. Dhaba Wala Indian Kitchen,3.9,124
+181. Harvest Wine Bar & Restaurant,3.9,123
+67. J Restaurant Bar,3.8,132
+221. Tokyo Sushi III,3.4,123
+22. Elizabeth Park,4.7,109
+147. Pho 135,4.4,120
+239. Pokeworks,4.4,120
+122. Prai Kitchen,4.3,114
+23. El Sarape Restaurant,4.2,121
+121. Primavera Pub,4.2,111
+230. Sam’s Gyro,3.9,115
+175. Hartford Baking,3.8,122
+205. Hot Basil Thai Cafe,3.7,113
+139. Franklin Giant Grinders,3.6,109
+166. Aroma Bistro,4.6,103
+38. Craftbird Food Truck,4.5,108
+59. Modern Pastry Shop,4.5,90
+236. Park Lane Pizza,4.0,98
+48. Terreno,4.0,91
+146. Brazil Grill,3.8,109
+135. Coyote Flaco Mexican Food,3.8,94
+142. Pig’s Eye Pub,3.8,91
+128. Pietro’s Pizza,3.4,108
+144. Infinity Music Hall & Bistro,3.4,98
+80. Taqueria La Grande,4.6,82
+31. Fire & Spice Vegan Restaurant,4.5,79
+60. The Rockin Chicken,4.4,88
+53. Juiced Up,4.4,84
+18. The Kitchen,4.4,83
+215. Sally & Bob’s Eatery,4.2,90
+231. Dunns River Restaurant,3.9,77
+89. Red Rock Tavern,3.7,85
+143. Ashley’s Restaurant,3.7,83
+212. Pho 68,3.7,83
+117. Kaliubon Ramen,4.4,74
+123. Banana Brazil,4.4,70
+36. Thai Farms Restaurant,4.3,74
+74. NY Chicken & Biscuits,4.1,74
+233. The Cove Deli,4.1,70
+108. Spigot Cafe,4.0,71
+105. Sunberry Cafe & Catering,3.8,73
+126. Piolin Restaurant Sr,3.8,69
+167. Saigon Kitchen,3.5,72
+198. Chosen 1 Cajun Seafood,3.2,69
+12. Twisted Italian Cafe,4.8,59
+14. Capital Ice Cream,4.7,67
+32. Rush Bowls,4.5,66
+75. Broasterant,4.5,63
+102. Ajamo,4.5,55
+151. Arethusa Farm Dairy & Cafe,4.4,68
+132. Scotts’ Jamaican Bakery,4.4,57
+192. Augie & Ray’s Drive In,4.2,58
+83. Fowl Play,4.2,56
+157. The Greenway Market,4.0,66
+109. Rebel Dog Coffee Co. EAST HARTFORD,4.6,51
+47. La Casita Del Sabor,4.4,52
+106. G’s Steaks and Grinders,4.3,55
+107. The Polish National Home,4.1,48
+98. El Mercado,4.1,46
+203. George’s Pizza House,3.9,50
+127. MofonGo,3.9,39
+183. Panaderia Pan Del Cielo,3.8,51
+152. Spice Venue,3.7,52
+227. MM’s Gyros Kebab,3.4,49
+26. Auroras,4.8,36
+46. Oc 2 Go,4.8,33
+103. VN Pho,4.6,36
+84. Kravin Pho,4.6,31
+193. Sparrow Pizza Bar,4.3,39
+114. Fogata Mexican Restaurant,4.3,36
+133. Bro’s Dough Pizzeria,4.2,39
+219. Hot Pots,4.2,39
+70. Bushnell Park,4.2,37
+148. Juices & Acai Bowls,3.9,31
+197. Perfect Poundcakes,4.9,27
+86. Adriatic Restaurant,4.9,25
+158. La Rosa’s Marketplace,4.7,26
+91. Four Dads Pub,4.6,24
+161. Harvey’s Cafe & Market,4.5,31
+206. Fung Chinese Restaurant,4.5,26
+165. KT Bakery,4.4,29
+210. Allegro Cafe,4.3,28
+149. Fornarelli’s Ristorante & Bar,4.2,27
+190. Sol De Borinquen,3.7,26
+240. The Tobacco Shop,4.8,24
+211. G - Monkey,4.6,24
+62. American & Mexican Diner,4.6,23
+45. Donde Julio Restaurant- Hartford,4.5,21
+115. Hartford Poke Company,4.5,21
+112. Caribe Restaurant,4.3,23
+189. Aqui Me Quedo Restaurant,4.2,24
+228. Kien Company,4.0,22
+194. The Portly Pig,3.9,22
+173. Jerk Shack,3.7,23
+58. Semilla Cafe + Studio,4.8,20
+96. Food truck american & mexican tasty flavors,4.8,19
+172. Soul Bowls,4.6,18
+111. Sno ‘N Dough,4.3,18
+177. Al’s Pizza and Deli,4.2,20
+180. J Fry Dirty Fries,4.2,18
+214. New York Gyro Halal Food,4.1,21
+216. Caribe Restaurant,4.1,18
+209. Que Chivo,3.9,19
+200. Piggy’s Cafe,3.8,18
+156. Antojitos Colombianos 2,4.8,12
+220. Perkatory Coffee Roasters,4.7,17
+196. Smoke Public House,4.5,17
+213. Take Five,4.4,17
+184. Starbucks,4.4,13
+130. Mi Sabor Restaurant,4.4,11
+195. Mercado 27,4.3,13
+237. Sambas Cuisine,4.2,18
+238. El Rinconcito Peruano,4.1,15
+218. Las Tortas MX,4.1,14
+125. Chan’s Street Fusion,5.0,9
+160. Thai Food On Wheels,5.0,9
+191. Yelp Elite Night: A Christmas Carol at Hartford Stage,5.0,9
+124. Nevin’s Pizza Bar,4.9,7
+179. Banh Meee,4.7,10
+217. Bar PIÑA,4.6,9
+232. Island Fish Head,4.6,7
+224. Brazilian Gula Grill,4.6,5
+222. The Local,4.5,8
+174. Fuego Picante Food Truck,4.4,7
+null,0.0,2424
