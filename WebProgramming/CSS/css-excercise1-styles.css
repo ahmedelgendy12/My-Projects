@@ -1,0 +1,35 @@
+#heading {
+    color: darkorange;
+    text-align: center;
+    animation: forwards;
+    background-color: bisque;
+    border: 3px solid green;
+    font-size: 3em;
+}
+
+
+h2, h3 {
+    color: aqua;
+    text-align: center;
+    font-weight: lighter;
+}
+
+a:hover{
+
+    color: gold;
+    font-size: 7em;
+}
+p::first-letter{
+    color: darkred;
+    font-size: larger;
+
+    
+}
+.mytext{
+    color: orange;
+}
+
+body{
+    background-color: #1f7373;
+    list-style-type: circle;
+}

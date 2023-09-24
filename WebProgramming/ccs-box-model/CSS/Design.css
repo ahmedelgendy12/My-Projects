@@ -1,0 +1,33 @@
+p{
+    border:2px solid red;
+    margin: 50px ;
+    padding: 50px;
+    width: 50%;
+    height:20%;
+}
+
+h1 {
+    margin-block-start: 100px;
+    display: block;
+    border: 1px solid red;
+}
+
+div{
+    text-align: center;
+}
+img {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    height: 150px;
+    border: 2px solid magenta;
+}
+
+#flex-container {
+    display: flex;
+    border: 3px solid blue;
+}
+#flex-container > div {
+border: 1px solid red;
+    width: 100px;
+}
