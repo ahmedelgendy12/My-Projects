@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_fKVX4DzpEeyaIa6IaE-12Q" name="UML_HW4">
+    <eAnnotations xmi:id="_nVJdMDzpEeyaIa6IaE-12Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_nVJdMTzpEeyaIa6IaE-12Q" source="codegen">
+        <details xmi:id="_nVKEQDzpEeyaIa6IaE-12Q" key="codegenDirectory" value="/HW4/src"/>
+        <details xmi:id="_nkNM4DzpEeyaIa6IaE-12Q" key="AssociatedSourceCode" value="/HW4/src/Keyboard.java;4196817148/1;/HW4/src/KeyboardTester.java;2120160311/1;/HW4/src/NoDigitsException.java;4077668705/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_nVYGsDzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_nVYGsTzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_nVYtwDzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_nVYtwTzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_nVYtwjzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_nVYtwzzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_nVZU0DzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_nVZ74DzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_nVbxEDzpEeyaIa6IaE-12Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nUD4EDzpEeyaIa6IaE-12Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nUJ-sDzpEeyaIa6IaE-12Q" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_nYJt4DzpEeyaIa6IaE-12Q" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nYd28DzpEeyaIa6IaE-12Q" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nYeeADzpEeyaIa6IaE-12Q" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nYiIYDzpEeyaIa6IaE-12Q" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nU3wYDzpEeyaIa6IaE-12Q" name="Keyboard">
+      <ownedAttribute xmi:id="_nYkkoDzpEeyaIa6IaE-12Q" name="scan" visibility="package" type="_nYJt4DzpEeyaIa6IaE-12Q" association="_nY_bYDzpEeyaIa6IaE-12Q">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_nYlywDzpEeyaIa6IaE-12Q" value="new Scanner(System.in)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_nYoPADzpEeyaIa6IaE-12Q" name="problem" visibility="package" type="_nV9VgDzpEeyaIa6IaE-12Q" association="_nZB3oDzpEeyaIa6IaE-12Q">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_nYoPATzpEeyaIa6IaE-12Q" value="new NoDigitsException()"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nYwx4DzpEeyaIa6IaE-12Q" name="getInt" specification="_nVfbcDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nYwx4TzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// take user input
+ String input = scan.nextLine();
+ String acceptInt = &quot;0123456789&quot;;
+ String result = &quot;&quot;;
+ // iterate through the String
+ for (int index = 0; index &lt; input.length(); index++) {
+   char letter = input.charAt(index);
+   if (acceptInt.indexOf(letter) > -1) {
+     result += letter;
+   }
+ }
+ if (result.equals(&quot;&quot;)) {
+   throw problem;
+ }
+ int finalResult = Integer.parseInt(result);
+ return finalResult;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nY2RcDzpEeyaIa6IaE-12Q" name="getIntPrompt" specification="_nVolYDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nY2RcTzpEeyaIa6IaE-12Q" name="prompt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nY2RcjzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(prompt);
+ return getInt();
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nY24gDzpEeyaIa6IaE-12Q" name="getDouble" specification="_nVsPwDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nY24gTzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int count = 0;
+ // take user input
+ String input = scan.nextLine();
+ String acceptDouble = &quot;.0123456789&quot;;
+ String result = &quot;&quot;;
+ // iterate through the String
+ for (int index = 0; index &lt; input.length(); index++) {
+   char letter = input.charAt(index);
+   // Checks for '.' and if the second one was typed in replace with 'a'
+   if (letter == '.') {
+     count++;
+     if (count > 1) {
+       letter = 'a';
+     }
+   }
+   if (acceptDouble.indexOf(letter) > -1) {
+     result += letter;
+   }
+ }
+ if (result.charAt(result.length() - 1) == '.') {
+   result += '0';
+ }
+
+ if (result.equals(&quot;&quot;)) {
+   throw problem;
+ }
+ double finalResult = Double.parseDouble(result);
+
+ return finalResult;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nY24gjzpEeyaIa6IaE-12Q" name="getDoublePrompt" specification="_nVusADzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nY24gzzpEeyaIa6IaE-12Q" name="prompt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nY24hDzpEeyaIa6IaE-12Q" type="_nYeeADzpEeyaIa6IaE-12Q" direction="return"/>
+        <language>java</language>
+        <body>System.out.println(prompt);
+ return getDouble();
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_nVfbcDzpEeyaIa6IaE-12Q" name="getInt" method="_nYwx4DzpEeyaIa6IaE-12Q" raisedException="_nV9VgDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nVjF0DzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nVolYDzpEeyaIa6IaE-12Q" name="getIntPrompt" method="_nY2RcDzpEeyaIa6IaE-12Q" raisedException="_nV9VgDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nVpMcDzpEeyaIa6IaE-12Q" name="prompt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nVqakDzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nVsPwDzpEeyaIa6IaE-12Q" name="getDouble" method="_nY24gDzpEeyaIa6IaE-12Q" raisedException="_nV9VgDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nVs20DzpEeyaIa6IaE-12Q" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nVusADzpEeyaIa6IaE-12Q" name="getDoublePrompt" method="_nY24gjzpEeyaIa6IaE-12Q" raisedException="_nV9VgDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nVusATzpEeyaIa6IaE-12Q" name="prompt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nYg6QDzpEeyaIa6IaE-12Q" type="_nYeeADzpEeyaIa6IaE-12Q" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nV1ZsDzpEeyaIa6IaE-12Q" name="KeyboardTester">
+      <ownedComment xmi:id="_nY570DzpEeyaIa6IaE-12Q">
+        <body>Ahmed Elgendy
+CS-152
+Problem 3</body>
+      </ownedComment>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nY3fkDzpEeyaIa6IaE-12Q" name="main" specification="_nV65QDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nY3fkTzpEeyaIa6IaE-12Q" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nY3fkjzpEeyaIa6IaE-12Q" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int banned = 0;
+ Keyboard key = new Keyboard();
+ while (true) {
+   try {
+     int test1 = key.getIntPrompt(&quot;Enter an Integer: &quot;);
+     System.out.println(test1);
+
+     int test2 = key.getInt();
+     System.out.println(test2);
+
+     double test3 = key.getDoublePrompt(&quot;Enter an Double: &quot;);
+     System.out.println(test3);
+
+     double test4 = key.getDouble();
+     System.out.println(test4);
+
+
+   } catch (NoDigitsException exception) {
+     banned++;
+     System.out.println(exception);
+     if (banned >= 2) {
+       System.out.println(&quot;Yeah I think were done here :( &quot;);
+       System.exit(0);
+     }
+   } catch (Exception justExpection) {
+     banned++;
+     System.out.println(&quot;Bad Input \nFeel Bad&quot;);
+     if (banned >= 2) {
+       System.out.println(&quot;Yeah I think were done here :( &quot;);
+       System.exit(0);
+     }
+   }
+ }
+
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_nV65QDzpEeyaIa6IaE-12Q" name="main" isStatic="true" method="_nY3fkDzpEeyaIa6IaE-12Q" raisedException="_nV9VgDzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nV7gUDzpEeyaIa6IaE-12Q" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nV8HYDzpEeyaIa6IaE-12Q" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nV9VgDzpEeyaIa6IaE-12Q" name="NoDigitsException">
+      <ownedComment xmi:id="_nY570TzpEeyaIa6IaE-12Q">
+        <body>Ahmed Elgendy
+CS-152
+Problem 1</body>
+      </ownedComment>
+      <generalization xmi:id="_nYjWgDzpEeyaIa6IaE-12Q" general="_nYiIYDzpEeyaIa6IaE-12Q"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nY4GoDzpEeyaIa6IaE-12Q" name="NoDigitsException" specification="_nWBm8DzpEeyaIa6IaE-12Q">
+        <ownedParameter xmi:id="_nY4GoTzpEeyaIa6IaE-12Q" type="_nV9VgDzpEeyaIa6IaE-12Q" direction="return"/>
+        <language>java</language>
+        <body>super(&quot;No digits found&quot;);
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_nWBm8DzpEeyaIa6IaE-12Q" name="NoDigitsException" visibility="package" method="_nY4GoDzpEeyaIa6IaE-12Q">
+        <eAnnotations xmi:id="_nWC1EDzpEeyaIa6IaE-12Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_nWC1ETzpEeyaIa6IaE-12Q" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_nWC1EjzpEeyaIa6IaE-12Q" type="_nV9VgDzpEeyaIa6IaE-12Q" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nY_bYDzpEeyaIa6IaE-12Q" name="" memberEnd="_nY_bYTzpEeyaIa6IaE-12Q _nYkkoDzpEeyaIa6IaE-12Q">
+      <ownedEnd xmi:id="_nY_bYTzpEeyaIa6IaE-12Q" name="" type="_nU3wYDzpEeyaIa6IaE-12Q" association="_nY_bYDzpEeyaIa6IaE-12Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nZB3oDzpEeyaIa6IaE-12Q" name="" memberEnd="_nZB3oTzpEeyaIa6IaE-12Q _nYoPADzpEeyaIa6IaE-12Q">
+      <ownedEnd xmi:id="_nZB3oTzpEeyaIa6IaE-12Q" name="" type="_nU3wYDzpEeyaIa6IaE-12Q" association="_nZB3oDzpEeyaIa6IaE-12Q"/>
+    </packagedElement>
+    <profileApplication xmi:id="_nU8o4DzpEeyaIa6IaE-12Q">
+      <eAnnotations xmi:id="_nVBhYDzpEeyaIa6IaE-12Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_nYPNcDzpEeyaIa6IaE-12Q" base_Element="_nYJt4DzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:Reference xmi:id="_nYgTMDzpEeyaIa6IaE-12Q" base_Element="_nYeeADzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:Reference xmi:id="_nYivcDzpEeyaIa6IaE-12Q" base_Element="_nYiIYDzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nYnA4DzpEeyaIa6IaE-12Q" base_Element="_nYkkoDzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nYo2EDzpEeyaIa6IaE-12Q" base_Element="_nYoPADzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:Reference xmi:id="_nZBQkDzpEeyaIa6IaE-12Q" base_Element="_nY_bYDzpEeyaIa6IaE-12Q"/>
+  <UMLLabProfile:Reference xmi:id="_nZE68DzpEeyaIa6IaE-12Q" base_Element="_nZB3oDzpEeyaIa6IaE-12Q"/>
+</xmi:XMI>

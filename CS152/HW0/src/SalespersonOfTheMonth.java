@@ -1,8 +1,7 @@
 /**
  * Homework 1
  * 
- * @author Ahmed Elgendy
- *         CS 152-01
+ * @author Ahmed Elgendy CS 152-01
  */
 
 import java.io.File;
