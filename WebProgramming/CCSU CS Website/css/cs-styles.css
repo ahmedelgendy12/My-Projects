@@ -1,0 +1,26 @@
+body {
+    background-color: #fafafa;
+
+}
+
+.icon-style{
+    color: #6495EDFF;
+    font-size: 1000%
+}
+
+.img-radius{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.footer-contact{
+    font-size: 2em;
+}
+
+.icon-footer{
+    font-size: 120%;
+}
+.footer-background{
+background: rgb(63,94,251);
+background: linear-gradient(189deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
